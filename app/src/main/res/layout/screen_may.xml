@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylcerView_may"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="745dp"
+        tools:layout_editor_absoluteY="-51dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/may_img_header"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/layout2"
+        android:layout_above="@+id/linearLayout6">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/month_lhs_panel"
+            android:scaleType="fitXY"
+            android:layout_weight="10"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent" android:orientation="horizontal"
+            android:layout_weight="90" android:weightSum="100">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/first_column"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="20">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/may_genericblock1"
+                    android:layout_height="0dp"
+                    android:layout_weight="14" >
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/may_genericblock2"
+                    android:layout_height="0dp"
+                    android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock3"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock4"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock5"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent" android:id="@+id/may_genericblock6"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent" android:id="@+id/may_genericblock7"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent" android:id="@+id/second_column"
+                android:layout_height="match_parent" android:orientation="vertical"
+                android:layout_weight="20" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" android:id="@+id/may_genericblock8"
+                    android:layout_weight="14"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock9"
+                    android:layout_height="0dp" android:layout_weight="14.28"/>
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock10"
+                    android:layout_height="0dp" android:layout_weight="14.28" />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock11"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock12"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent" android:id="@+id/may_genericblock13"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent" android:id="@+id/may_genericblock14"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"  android:id="@+id/third_column"
+                android:layout_height="match_parent" android:orientation="vertical"
+                android:layout_weight="20">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" android:id="@+id/may_genericblock15"
+                    android:layout_weight="14"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock16"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock17"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock18"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock19"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent" android:id="@+id/may_genericblock20"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent" android:id="@+id/may_genericblock21"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent" android:id="@+id/fourth_column"
+                android:layout_height="match_parent" android:orientation="vertical"
+                android:layout_weight="20">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" android:id="@+id/may_genericblock22"
+                    android:layout_weight="14"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock23"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock24"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock25"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock26"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent" android:id="@+id/may_genericblock27"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent" android:id="@+id/may_genericblock28"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent" android:id="@+id/fifth_column"
+                android:layout_height="match_parent" android:orientation="vertical"
+                android:layout_weight="20">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" android:id="@+id/may_genericblock29"
+                    android:layout_weight="14"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock30"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock31"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock32"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"  android:id="@+id/may_genericblock33"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent" android:id="@+id/may_genericblock34"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+                <ImageView
+                    android:layout_width="match_parent" android:id="@+id/may_genericblock35"
+                    android:layout_height="0dp" android:layout_weight="14.28"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent" android:layout_weight="90" android:weightSum="100">-->
+        <!--<GridView-->
+        <!--android:id="@+id/gridview"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:numColumns="5"-->
+        <!--android:verticalSpacing="0dp"-->
+        <!--android:horizontalSpacing="0dp"-->
+        <!--android:layout_weight="100"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:gravity="center">-->
+
+        <!--</GridView>-->
+
+        <!--</LinearLayout>-->
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout6">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/may_img_footer"/>
+
+    </LinearLayout>
+    <!--<fragment-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="15"-->
+    <!--android:id="@+id/generic_footer" android:nacom.ideaimpl.calendarapp.Fragmentsents.BottomAdFragment"/>-->
+    <!--</android.support.v7.widget.LinearLayoutCompat>-->
+</RelativeLayout>
